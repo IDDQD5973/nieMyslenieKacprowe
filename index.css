@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.Wszystko {
+  text-align: center;
+  height: 100%;
+  width: 90%;
+  background-color: brown;
+  margin-left:5%;
+}
+.Up{
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(235, 225, 207);
+}
+.Down{
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(235, 225, 207);
+  display: flex;
+}
+.Bn{
+  float: left;
+  margin-left: 150px;
+  margin-right: 150px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+.Rok{
+  float: left;
+  margin:5px;
+  padding: 5px;
+  border-radius: 10px;
+  border: purple 2px solid;
+}
+
+.Kaf{
+  background-color: white;
+  width:150px;
+  height:200px;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+}
+.Mie{
+  padding: 5px;
+  border-radius: 10px;
+  border: purple 2px solid;
+}
+.Spon{
+  display: flex;
+  justify-content: space-around;
+}
+.Sklep{
+  align-items: end;
+  margin-left: 20%;
+}
+
